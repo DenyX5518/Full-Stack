@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Site | Регистрация</title>
+    <link type="text/css" rel="stylesheet" href = "Style1.css" >
+    <script src = "jquery-3.6.0.min.js"></script>
+    <script src="JS.js"></script>
+</head>
+<body>
+<div class = "loader_on">
+
+</div>
+<div class="bar">
+    <div class="Header">
+        <h1>
+            My Site
+        </h1>
+    </div>
+    <div class="navbar">
+        <hr>
+        <nav class="nav">
+            <a class="nav-link" href = "index.html">MAIN</a>
+            <a class="nav-link" href = "Form.html">REGISTER</a>
+            <a class="nav-link" href = "Price-list.html">INFO</a>
+            <a class="nav-link" href = "Contact-Data.html">CONTACT DATA</a>
+            <a class="nav-link" href="About.html">ABOUT</a>
+        </nav>
+    </div>
+</div>
+
+<div class="model">
+    <form method="POST" action="Mainer.php">
+        <div class="Input-reg">
+            <h1 id = "head-reg">My Site</h1><br><br><br><br><br><br>
+            <h1>Почта: </h1>
+            <label for="Input-reg_1"></label><input type = "text" required id = "Input-reg_1" name = "Email"><br><br><br>
+<!--            <h1>Phone: </h1>-->
+<!--            <label for="Input-reg_2"></label><input type = "number" required id = "Input-reg_2" name = "Phone"><br>-->
+            <h1>Пароль: </h1>
+            <label for="Input-reg_3"></label><input type = "password" required id = "Input-reg_3" name = "Password">
+            <button type="submit" id = "btn-send">ОТПРАВИТЬ</button>
+
+        </div>
+    </form>
+</div>
+<!--<button id = "btn-reg">РЕГИСТРАЦИЯ</button>-->
+</body>
+</html>
